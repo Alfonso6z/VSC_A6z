@@ -7,10 +7,44 @@
 _Curso para el uso de Visual Studio Code_
 
 ## Tabla de contenido:
-1. [Paleta de comandos][1]
+1. [Interface de usuario][1]
+    * [Diseño basico][1.1]
+1. [Paleta de comandos][2]
+## Interface de usuario.
+La interface de usuario de VS Code es muy comun como otros muchos editrores de código.
+### Diseño basico
+La interface de usuario se divide en 5 áreas:
+* __Editor:__ el área principal para editar tus archivos. Puedes abrir tantos editores como desees, uno lado del otro, vertical y horizontalmente.
+* __Barra lateral (Side Bar):__ contiene diferentes vistas, como el Explorador, para ayudarte mientras trabajas en tu proyecto.
+* __Barra de estado (Status Bar):__ información sobre el proyecto abierto y los archivos que editas.
+* __Barra de actividades (Activity Bar):__ ubicada en el extremo izquierdo, te permite cambiar entre varias vistas y te brinda indicadores adicionales especificos del contexto (extenciones), como la cantidad de cambios cuando Git está habilitado.
+* __Paneles (Terminal):__ puede mostrar diferentes paneles para obtener información de salida o depuración, errores y advertencias, o un terminal integrado. El panel también se puede mover hacia la derecha para obtener más espacio vertical.
+
+> Cada vez que se abre VS Code, se abre en el mismo estado en que se encontraba la última vez que lo cerraste.  
+> La carpeta, el diseño y los archivos abiertos se conservan
+
+![interface de usuario](img/interface.png)
+
+### Edición lado a lado
+Para poder abrir tantos editores como desees, hay varias formas de abrir otro editor al lado del existente:
+* __Alt + Clic__ en un archivo
+* __Ctrl + Enter__ desde el menú contextrual del Explorador de archivos.
+* Clic en el botón __Dividir editor__ en la parte superior derecha ![](img/dividir_editor.png)
+* Arrastra y suelta el archivo a cualquier lado de la región del editor.
+
+![editor](img/editor.png)
+>Cuando tiene más de un editor abierto, puede cambiar entre ellos con Ctrl + 1,2 ..
+### minimapa
+Muestra una descripción general de alto nivel de su código fuente, es util para una navegación rápida y comprención del código. El minimapa de un archivo se muestra en el lado derecho del editor. Puedes hacer clic o arrastrar el área sombreada para saltar rápidamente a diferentes secciones del archivo.
+![minimapa](img/minimapa.png)
+
+### Migas de pan
+El editor tiene una barra de navegación sobre su contenido llamada Breadcrumbs. Muestra la ubicación actual y te permite navegar rápidamente entre carpetas, archivos y símbolos.
+![breadcrumbs](img/breadcrumbs.png)
+
 ## Paleta de comandos.  
 La paleta de comandos te permite acceder a todas las funciones de Visual Studio Code,
-incluidos los atajos de teclado para las operaciones más comunes. También pudes ejecutar comandos del editor, abrir archivos, buscar simboloes y ver un resumen rápido de un archivo, todo usando la misma ventana interactiva.  
+incluidos los atajos de teclado para las operaciones más comunes. También pudes ejecutar comandos del editor, abrir archivos, buscar simbolos y ver un resumen rápido de un archivo, todo usando la misma ventana interactiva.  
 
 ---
 * __Ctrl + p__: Permitira navegar a cualquier archivo o simbolo escribiendo su nombre
@@ -30,4 +64,6 @@ incluidos los atajos de teclado para las operaciones más comunes. También pude
 [GitHub followers]: https://img.shields.io/github/followers/Alfonso6z?label=Sígueme&logo=github&style=flat-square
 
 <!-- contenido -->
-[1]: #paleta-de-comandos
+[1]: #interface-de-usuario
+[1.1]: #diseño-basico
+[2]: #paleta-de-comandos
