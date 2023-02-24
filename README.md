@@ -42,6 +42,16 @@ Muestra una descripción general de alto nivel de su código fuente, es util par
 El editor tiene una barra de navegación sobre su contenido llamada Breadcrumbs. Muestra la ubicación actual y te permite navegar rápidamente entre carpetas, archivos y símbolos.
 ![breadcrumbs](img/breadcrumbs.png)
 
+<!-- ### Explorador 
+### Selección multiple
+### Navegación de árbol avanzada
+### Vista Exterior
+### Editores abiertos
+### Puntos de vista -->
+### Barra de actividades
+La barra de actividades de al izquierda te permite cambiar de entre vistas. También puedes reordenar las vistas arrastrándolas y soltándolas en la barra de actividad o eliminar una vista por completo.
+![ActivityBar](img/activity_bar.png)
+
 ## Paleta de comandos.  
 La paleta de comandos te permite acceder a todas las funciones de Visual Studio Code,
 incluidos los atajos de teclado para las operaciones más comunes. También pudes ejecutar comandos del editor, abrir archivos, buscar simbolos y ver un resumen rápido de un archivo, todo usando la misma ventana interactiva.  
@@ -55,6 +65,18 @@ incluidos los atajos de teclado para las operaciones más comunes. También pude
 * Si escribe ? en el campo de entrada podrás optener la lista de los comandos disponibles pque puede ejecuatar.
 ![paleta de comandos](img/paletaDeComandos.gif)
 
+## Métodos abreviados de teclado (Keyboard Shortcuts)
+En VS Code proporciona la edición de _Métodos abreviados de teclado_ enriquecida y sencilla mediante el editor. Proporciona todos los comandos disponibles con y sin combinaciones de teclas y se puede eliminar, cambiar y restablecer fácilmente sus combinaciones de teclas usando las acciones disponibles. También tiene un cuadro de busqueda para encontrar el comando o las combinaciones de teclas.
+<!-- TODO: realizar el gif mostrando cuadro de busqueda-->
+Todos los atajos de teclados en VS Code se pueden personalizar a través del archivo __JSON__, en el editor de _Métodos abreviados de teclado_ selecciona __Abrir métodos abreviados de teclado (JSON)__. Esto abrirá __ `keybindings.json` archivo donde podrás sobrescribir los __atajos de teclado__
+<!-- TODO: png indicando el open keyboard shortcuts -->
+También puedes abrir  `keybindings.json` desde la Paleta de comando, para poder sobre escribir los atajos de teclado.
+### Raglas del teclad
+Cada regla consta de:
+* `key` que describe las teclas presionadas.
+* `command` que contiene el identificador del comando a ejecutar.
+* `when`__(opcional)__ que contiene una expresión booleana que se evaluará según el __contexto__ actual.
+Los acordes(dos acciones de pulsación de tecla independiente) se describen separado por las dos pulsaciones de tecla con un espacio. Por ejemplo ``Ctrl+k Ctrl+C``
 ## Autores ✒️
 **Trabajo Inicial** ⌨️ con ❤️ por [Alfonso Gónzalez Zempoalteca](https://github.com/Alfonso6z)😊
 
