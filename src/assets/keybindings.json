@@ -1,5 +1,6 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
+    // *alternar comentario
     {
         "key": "ctrl+shift+7",
         "command": "editor.action.commentLine",
@@ -10,6 +11,7 @@
         "command": "-editor.action.commentLine",
         "when": "editorTextFocus && !editorReadonly"
     },
+    // *agregar cursor arriba
     {
         "key": "ctrl+alt+up",
         "command": "editor.action.insertCursorAbove",
@@ -20,6 +22,7 @@
         "command": "-editor.action.insertCursorAbove",
         "when": "editorTextFocus"
     },
+    // *agregar cursor abajo
     {
         "key": "ctrl+alt+down",
         "command": "editor.action.insertCursorBelow",
@@ -30,6 +33,7 @@
         "command": "-editor.action.insertCursorBelow",
         "when": "editorTextFocus"
     },
+    // * copiar línea abajo
     {
         "key": "shift+alt+down",
         "command": "editor.action.copyLinesDownAction",
@@ -40,6 +44,7 @@
         "command": "-editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
+    // * copiar línea arriba
     {
         "key": "shift+alt+up",
         "command": "editor.action.copyLinesUpAction",
@@ -50,6 +55,7 @@
         "command": "-editor.action.copyLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
     },
+    // * Mover línea abajo
     {
         "key": "alt+down",
         "command": "editor.action.moveLinesDownAction",
@@ -60,6 +66,7 @@
         "command": "-editor.action.moveLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
+    // * Mover línea arriba
     {
         "key": "alt+up",
         "command": "editor.action.moveLinesUpAction",
@@ -70,6 +77,7 @@
         "command": "-editor.action.moveLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
     },
+    // * eliminar línea
     {
         "key": "ctrl+shift+k",
         "command": "editor.action.deleteLines",
@@ -80,6 +88,7 @@
         "command": "-editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
     },
+    // * agregar cursor a la siguiente coincidencia de búsqueda
     {
         "key": "ctrl+d",
         "command": "editor.action.addSelectionToNextFindMatch",
@@ -90,6 +99,7 @@
         "command": "-editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
     },
+    // * ir al archivo
     {
         "key": "ctrl+p",
         "command": "workbench.action.quickOpen"
@@ -98,6 +108,7 @@
         "key": "ctrl+p",
         "command": "-workbench.action.quickOpen"
     },
+    // * mostrar todos los comandos
     {
         "key": "ctrl+shift+p",
         "command": "workbench.action.showCommands"
@@ -106,6 +117,7 @@
         "key": "ctrl+shift+p",
         "command": "-workbench.action.showCommands"
     },
+    // * abrir el siguiente editor
     {
         "key": "ctrl+pagedown",
         "command": "workbench.action.nextEditor"
@@ -114,6 +126,7 @@
         "key": "ctrl+pagedown",
         "command": "-workbench.action.nextEditor"
     },
+    // * abrir el aterior editor
     {
         "key": "ctrl+pageup",
         "command": "workbench.action.previousEditor"
@@ -122,6 +135,7 @@
         "key": "ctrl+pageup",
         "command": "-workbench.action.previousEditor"
     },
+    // * buscar
     {
         "key": "ctrl+f",
         "command": "actions.find",
@@ -132,6 +146,7 @@
         "command": "-actions.find",
         "when": "editorFocus || editorIsOpen"
     },
+    // * mostrar side bar
     {
         "key": "ctrl+b",
         "command": "workbench.action.toggleSidebarVisibility"
@@ -140,6 +155,7 @@
         "key": "ctrl+b",
         "command": "-workbench.action.toggleSidebarVisibility"
     },
+    // * mostrar terminal
     {
         "key": "ctrl+alt+t",
         "command": "terminal.toggle"
@@ -148,16 +164,7 @@
         "key": "ctrl+alt+t",
         "command": "-terminal.toggle"
     },
-    {
-        "key": "ctrl+oem_3",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
-    },
-    {
-        "key": "ctrl+oem_3",
-        "command": "-workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
-    },
+    // * modo zen
     {
         "key": "ctrl+k z",
         "command": "workbench.action.toggleZenMode"
@@ -166,6 +173,7 @@
         "key": "ctrl+k z",
         "command": "-workbench.action.toggleZenMode"
     },
+    // * alternar comentario de bloque
     {
         "key": "shift+alt+a",
         "command": "editor.action.blockComment",
@@ -176,6 +184,7 @@
         "command": "-editor.action.blockComment",
         "when": "editorTextFocus && !editorReadonly"
     },
+    // * ir a la definición
     {
         "key": "alt+f12",
         "command": "editor.action.peekDefinition",
@@ -186,30 +195,12 @@
         "command": "-editor.action.peekDefinition",
         "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
     },
-    {
-        "key": "ctrl+l",
-        "command": "expandLineSelection",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+l",
-        "command": "-expandLineSelection",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+shift+d l",
-        "command": "editor.action.selectHighlights",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+shift+l",
-        "command": "-editor.action.selectHighlights",
-        "when": "editorFocus"
-    },
+    // * envolver con abreviatura
     {
         "key": "ctrl+k w",
         "command": "editor.emmet.action.wrapWithAbbreviation"
     },
+    // * abrir edtiro recien cerrado
     {
         "key": "ctrl+shift+t",
         "command": "workbench.action.reopenClosedEditor"
@@ -218,6 +209,7 @@
         "key": "ctrl+shift+t",
         "command": "-workbench.action.reopenClosedEditor"
     },
+    // * cerrar un grupo de editores
     {
         "key": "ctrl+k ctrl+w",
         "command": "workbench.action.closeAllEditors"
@@ -226,6 +218,7 @@
         "key": "ctrl+k ctrl+w",
         "command": "-workbench.action.closeAllEditors"
     },
+    // * cambiar entre editores
     {
         "key": "ctrl+tab",
         "command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
@@ -234,6 +227,7 @@
         "key": "ctrl+tab",
         "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
     },
+    // * cursor final de palabra derecha seleccionada
     {
         "key": "shift+alt+right",
         "command": "editor.action.smartSelect.expand",
@@ -244,6 +238,7 @@
         "command": "-editor.action.smartSelect.expand",
         "when": "editorTextFocus"
     },
+    // * cursor final de palabra izquierda seleccionada
     {
         "key": "ctrl+shift+right",
         "command": "cursorWordEndRightSelect",
@@ -254,18 +249,21 @@
         "command": "-cursorWordEndRightSelect",
         "when": "textInputFocus && !accessibilityModeEnabled"
     },
+    // * TRANSFORMAR a MAYUSCULAS
+    {
+        "key": "ctrl+k ctrl+u",
+        "command": "editor.action.transformToUppercase",
+        "when": "editorTextFocus && !editorReadonly"
+    },
     {
         "key": "ctrl+k ctrl+u",
         "command": "-editor.action.removeCommentLine",
         "when": "editorTextFocus && !editorReadonly"
     },
+    // * transformar A minusculas
     {
-        "key": "ctrl+k ctrl+u",
-        "command": "editor.action.transformToUppercase"
-    },
-    {
-        "key": "ctrl+k l",
-        "command": "editor.toggleFold",
+        "key": "ctrl+k ctrl+l",
+        "command": "editor.action.transformToLowercase",
         "when": "editorTextFocus && foldingEnabled"
     },
     {
@@ -273,10 +271,13 @@
         "command": "-editor.toggleFold",
         "when": "editorTextFocus && foldingEnabled"
     },
+    // * alternar pliege
     {
-        "key": "ctrl+k ctrl+l",
-        "command": "editor.action.transformToLowercase"
+        "key": "ctrl+k l",
+        "command": "editor.toggleFold",
+        "when": "editorTextFocus && foldingEnabled"
     },
+    // * cerrar y guardar grupo de editores
     {
         "key": "ctrl+k u",
         "command": "workbench.action.closeUnmodifiedEditors"
@@ -285,6 +286,7 @@
         "key": "ctrl+k u",
         "command": "-workbench.action.closeUnmodifiedEditors"
     },
+    // * ir a línea
     {
         "key": "ctrl+g",
         "command": "workbench.action.gotoLine"
@@ -293,6 +295,7 @@
         "key": "ctrl+g",
         "command": "-workbench.action.gotoLine"
     },
+    // * renombrar
     {
         "key": "f2",
         "command": "editor.action.rename",
@@ -303,16 +306,4 @@
         "command": "-editor.action.rename",
         "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
     },
-    {
-        "key": "ctrl+[Semicolon]",
-        "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "ctrl+k ctrl+w",
-        "command": "workbench.action.closeEditorsInGroup"
-    },
-    {
-        "key": "ctrl+k w",
-        "command": "-workbench.action.closeEditorsInGroup"
-    }
 ]
