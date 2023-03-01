@@ -16,6 +16,9 @@ _Curso para el uso de Visual Studio Code_
 1. [Paleta de comandos][2]
 1. [Métodos abreviados de teclado (Keyboard Shortcuts)][3]
     * [Raglas del teclado][3.1]
+1. [Fragmentos de código][4]
+    * [Instalar fragmentos de marketplace][4.1]
+    * [Crear tus propios fragmentos de código][4.2]
 ## Interface de usuario.[🔸][0]
 La interface de usuario de VS Code es muy comun como otros muchos editrores de código.
 ### Diseño basico[🔸][0]
@@ -90,13 +93,18 @@ Los acordes(dos acciones de pulsación de tecla independiente) se describen sepa
 
 >[shortcuts a6z](src/assets/keybindings.json)
 
+## Snippets[🔸][0]
+Los fragmentos de código son plantillas que facilitan la introducción de patrones de código repetitivos, como bucles o declaraciones condicionales.  
+En Visual Studio Code, los fragmentos aparecen en __IntelliSense__ ( `Ctrl+Espacio `) combinados con otras sugerencias, así como en un selector de fragmentos dedicado ( Insertar fragmento en la paleta de comandos). También hay soporte para completar con tabulación: habilítelo con ``"editor.tabCompletion": "on"``, escriba un prefijo de fragmento (texto de activación) y presione Tabulador para insertar un fragmento.
+<!-- todo: gif -->
+### Instalar fragmentos de Marketplace[🔸][0]
+Muchas extensiones en VS Code Marketplace incluyen fragmentos. Puede buscar extensiones que contengan fragmentos en la vista Extensiones ( __Ctrl+Shift+X__ ) usando el ``@category:"snippets"``.
+<!-- todo: gif -->
+
+### Crear tus propios fragmentos[🔸][0]
 
 ## Autores ✒️[🔸][0]
 **Trabajo Inicial** ⌨️ con ❤️ por [Alfonso Gónzalez Zempoalteca](https://github.com/Alfonso6z)😊
-
-- [ ] #1
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
 
 <!-- shields -->
 [GitHub followers]: https://img.shields.io/github/followers/Alfonso6z?label=Sígueme&logo=github&style=flat-square
@@ -112,5 +120,8 @@ Los acordes(dos acciones de pulsación de tecla independiente) se describen sepa
 [2]:#paleta-de-comandos
 [3]:#métodos-abreviados-de-teclado-keyboard-shortcuts
 [3.1]:#raglas-del-teclado
+[4]:#snippets
+[4.1]:#instalar-fragmentos-de-marketplace
+[4.2]:#crear-tus-propios-fragmentos
 
 <!-- https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax -->
