@@ -8,7 +8,7 @@ _Curso para el uso de Visual Studio Code_
 
 ## Tabla de contenido:
 1. [Interface de usuario][1]
-    * [Diseño basico][1.1]::
+    * [Diseño basico][1.1]
     * [Edición lado a lado][1.2]
     * [Minimapa][1.3]
     * [Migas de pan][1.4]
@@ -96,13 +96,10 @@ Los acordes(dos acciones de pulsación de tecla independiente) se describen sepa
 ## Snippets[🔸][0]
 Los fragmentos de código son plantillas que facilitan la introducción de patrones de código repetitivos, como bucles o declaraciones condicionales.  
 En Visual Studio Code, los fragmentos aparecen en __IntelliSense__ ( `Ctrl+Espacio `) combinados con otras sugerencias, así como en un selector de fragmentos dedicado ( Insertar fragmento en la paleta de comandos). También hay soporte para completar con tabulación: habilítelo con ``"editor.tabCompletion": "on"``, escriba un prefijo de fragmento (texto de activación) y presione Tabulador para insertar un fragmento.
-<!-- todo: gif -->
+<!-- TODO: gif -->
 ### Instalar fragmentos de Marketplace[🔸][0]
 Muchas extensiones en VS Code Marketplace incluyen fragmentos. Puede buscar extensiones que contengan fragmentos en la vista Extensiones ( __Ctrl+Shift+X__ ) usando el ``@category:"snippets"``.
 <!-- todo: gif -->
-
-### Crear tus propios fragmentos[🔸][0]
-
 ## Autores ✒️[🔸][0]
 **Trabajo Inicial** ⌨️ con ❤️ por [Alfonso Gónzalez Zempoalteca](https://github.com/Alfonso6z)😊
 
