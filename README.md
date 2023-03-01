@@ -94,7 +94,9 @@ Los acordes(dos acciones de pulsación de tecla independiente) se describen sepa
 ## Autores ✒️[🔸][0]
 **Trabajo Inicial** ⌨️ con ❤️ por [Alfonso Gónzalez Zempoalteca](https://github.com/Alfonso6z)😊
 
-
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
 
 <!-- shields -->
 [GitHub followers]: https://img.shields.io/github/followers/Alfonso6z?label=Sígueme&logo=github&style=flat-square
