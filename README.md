@@ -67,16 +67,20 @@ incluidos los atajos de teclado para las operaciones más comunes. También pude
 
 ## Métodos abreviados de teclado (Keyboard Shortcuts)
 En VS Code proporciona la edición de _Métodos abreviados de teclado_ enriquecida y sencilla mediante el editor. Proporciona todos los comandos disponibles con y sin combinaciones de teclas y se puede eliminar, cambiar y restablecer fácilmente sus combinaciones de teclas usando las acciones disponibles. También tiene un cuadro de busqueda para encontrar el comando o las combinaciones de teclas.
-<!-- TODO: realizar el gif mostrando cuadro de busqueda-->
+![cuadro busqueda](img/keysearch.gif)
 Todos los atajos de teclados en VS Code se pueden personalizar a través del archivo __JSON__, en el editor de _Métodos abreviados de teclado_ selecciona __Abrir métodos abreviados de teclado (JSON)__. Esto abrirá __ `keybindings.json` archivo donde podrás sobrescribir los __atajos de teclado__
-<!-- TODO: png indicando el open keyboard shortcuts -->
+![json](img/keyjson.png)
 También puedes abrir  `keybindings.json` desde la Paleta de comando, para poder sobre escribir los atajos de teclado.
-### Raglas del teclad
+### Raglas del teclado
 Cada regla consta de:
 * `key` que describe las teclas presionadas.
 * `command` que contiene el identificador del comando a ejecutar.
 * `when`__(opcional)__ que contiene una expresión booleana que se evaluará según el __contexto__ actual.
 Los acordes(dos acciones de pulsación de tecla independiente) se describen separado por las dos pulsaciones de tecla con un espacio. Por ejemplo ``Ctrl+k Ctrl+C``
+
+>[shortcuts a6z](src/assets/keybindings.json)
+
+
 ## Autores ✒️
 **Trabajo Inicial** ⌨️ con ❤️ por [Alfonso Gónzalez Zempoalteca](https://github.com/Alfonso6z)😊
 
